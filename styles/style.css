@@ -31,10 +31,10 @@ section#login {
     top: 50%;
     left: 50%;
     transform:  translate(-50%, -50%);
-    /* overflow: hidden; */
+    overflow: hidden;
 
     background-color: azure;
-    width: 250px;
+    width: 300px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
@@ -44,9 +44,14 @@ section#login > div#imagem {
     display: block;
     background: url(../imagens/porta.jpg) no-repeat;
     height: 200px;
-    background-size: cover;
-    border-radius: 20px 20px 0px 0px;
+    background-size: cover; 
     background-position: top;
+    
+}
+
+div#formulario {
+    
+    
 }
 
 section#login > div#formulario {
