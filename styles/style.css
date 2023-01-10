@@ -23,7 +23,6 @@ main {
     height: 100vh;
     width: 100vw;
     position: relative;
-
 }
 
 section#login {
@@ -32,6 +31,7 @@ section#login {
     left: 50%;
     transform:  translate(-50%, -50%);
     overflow: hidden;
+    
 
     background-color: azure;
     width: 300px;
@@ -46,6 +46,8 @@ section#login > div#imagem {
     height: 200px;
     background-size: cover; 
     background-position: top;
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
     
 }
 
@@ -58,3 +60,5 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 }
+
+
