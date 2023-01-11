@@ -64,9 +64,14 @@ div#formulario > p {
 }
 
 div.campo {
-  margin: 5px 5px;
-  
+  margin: 5px 5px;  
 }
+div.campo >span {
+    color: #332503;
+    
+}
+
+
 
 form > input[type=submit] {
     display: block;
