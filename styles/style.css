@@ -32,7 +32,7 @@ section#login {
     transform:  translate(-50%, -50%);
     overflow: hidden;  
 
-    background-color: azure;
+    background-color: #FDF1C2;
     width: 280px;
     height: 600px;
     border-radius: 20px;
@@ -64,7 +64,32 @@ div#formulario > p {
 }
 
 div.campo {
-    padding-top: 20px;
+  margin: 5px 5px;
+  
 }
 
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:  #762801bb;
+    border: none;
+    margin-top: 15px;
+    color: #D1A222;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.541);
+}
+
+form > input[type=submit]:hover {
+    background-color: #762801d7;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.589);
+}
+
+.material-icons {
+    padding-top: 5px;
+}
 
