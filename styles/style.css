@@ -33,8 +33,8 @@ section#login {
     overflow: hidden;  
 
     background-color: azure;
-    width: 300px;
-    height: 500px;
+    width: 280px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
 }
@@ -42,21 +42,29 @@ section#login {
 section#login > div#imagem {
     display: block;
     background: url(../imagens/porta.jpg) no-repeat;
-    height: 200px;
+    height: 50%;
     background-size: cover; 
     background-position: top;
     transition: width .5s, height .5s;
     transition-timing-function: ease;    
 }
 
-div#formulario {
-    
-    
-}
-
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+div.campo {
+    padding-top: 20px;
 }
 
 
